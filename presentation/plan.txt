@@ -1,0 +1,13 @@
+Possibly talkingpoints for our presentation
+- Introduce ourselves
+- Give background on how we chose the app, maybe what we might do for the Final
+- Start describing what the app is, and what functions it has
+- Start demo of the app
+- Elaborate on all the features of the app
+
+- Show logcat stuff
+- Describe how we used resource qualifiers (Night mode, landscape, etc)
+- Describe how we used fragments, controllers
+- Describe how we used persistence
+- Elaborate on any troubles we had
+- Describe what we learned during development, how we may use it on the final

@@ -1,0 +1,15 @@
+DIRECTORIES AND FILES WHERE EACH REQUIREMENT IS LOCATED
+
+Callbacks - MainActivity.kt, MainActivity2.kt, and MainActivity3.kt
+
+Logging - MainActivity2.kt line 67
+
+Layouts - activity_main.xml and activity_main.xml (land)
+
+Resources - drawable, layout, mipmap, values, and xml folders
+
+Resource Qualifiers - activity_main.xml, activity_main.xml (land), strings.xml
+
+Persistence - activity_main.xml, activity_main.xml (land), MainActivity.kt, MainActivity2.kt, MainActivity3.kt
+
+UI Flexibility - activity_main.xml, activity_main.xml (land) 

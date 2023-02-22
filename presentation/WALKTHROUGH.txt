@@ -1,0 +1,72 @@
+WALKTHROUGH OF presentation
+
+- Introduce ourselves
+- Start describing that it is a weather app 
+  , that allows the user to see the weather in any city in the world
+- The app while then display information about the weather in that city,
+  including the temperature, the humidity, the wind speed, the pressure, the clouds, 
+  the sunrise and sunset times, etc.
+- Development
+    o We first looked for an API that would allow us to get the weather information
+    o We used openweathermap.org
+    o We then created an activity and layout that would display that API information,
+      but set to a default city
+    o We then changed how main activity reads the API, by allowing a string to replace
+      part of the URL ($CITY2)
+    o After figuring out how we would get the city name from the user, we then created
+      searchbar that would allow the user to enter a city name
+    o We then created a button that would allow the user to go to another activity
+      that would display the weather information for the city they entered (MainActivity2)
+    o After learning that entering a city a second time, would send us to the default
+      city, we then created a new activity that would display the weather information (MainActivity3)
+    o Our final app state essentially loops between MainActivity2 and MainActivity3 
+- Demo the app
+
+Michael 
+- Callbacks
+    o We used 3 activities, 
+        - MainActivity displays the weather information from the default city, Fullerton
+        - MainActivity2 displays the weather information from the city that the user inputs
+        - MainActivity3 displays the weather information from the  next city that the user inputs
+    o NOTE : MainActivity2 and mainActivity3 are the same activity, but we had to create
+             2 different activities in order to loop the search function
+
+- Layouts
+    o We used 3 layouts
+        - activity_main.xml
+        - activity_main.xml (landscape)
+    o Both layouts are the same, that displays the weather information from a city,
+      which includes the temperature, the humidity, the wind speed, the pressure, and more
+
+- Resources
+    o in drawable
+        - We used the drawable folder to store all the icon's shown in the app
+        - pressure.png, rain.png, humidity.png, wind.png, clouds.png, sunrise.png, sunset.png
+    o App Icon is stored in the mipmap folders
+
+- Resource Qualifiers
+    o strings.xml
+        - We used strings.xml to store the app's name
+    o landscape layout
+        - We used the landscape layout to display the weather information in a different way
+
+- UI Flexibility
+    o We used a landscape layout that automatically changes the orientation of the app
+      when the user rotates the phone
+    o Essentially maintains the same layout, but changes the orientation of the app
+    
+Shaleen 
+
+-Logging
+  o Created a Log function within our MainActivity.kt files in order to track when the new city search button was clicked inside the LogCat
+
+
+- Elaborate on any troubles we had 
+    o We had trouble finding a way how to alter the URL for the API, so that we could
+      get the weather information for any city
+    o Implementing the searchbar was difficult, but a search on youtube helped us
+      figure out how to create a searchbar that stores the user's input as a string
+
+- We learned
+    o How using API's can elevate app development and allow for cooler features
+    o How callbacks can be used to loop between activities

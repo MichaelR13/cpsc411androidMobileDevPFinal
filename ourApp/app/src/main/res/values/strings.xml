@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ok Google, Weather please</string>
+    <string name="clicked_message"> Clicked ! </string>
+</resources>
